@@ -1572,6 +1572,10 @@
                         "disks": "ディスク設定",
                         "interfaces": "インターフェース設定"
                     },
+                    "node_loading_error": {
+                        "title": "ノード読み込みエラー",
+                        "load_error": "いくつかのノードの読み込みに失敗しました"
+                    },
                     "configure_interfaces": {
                         "title": "__name__上のインターフェース設定",
                         "title_plural": "__count__ ノード上のインターフェース設定",
@@ -1612,10 +1616,6 @@
                             "title": "インターフェース設定エラー",
                             "saving_warning": "変更を適用できませんでした",
                             "load_defaults_warning": "デフォルト設定を読み込めませんでした"
-                        },
-                        "node_loading_error": {
-                            "title": "ノード読み出しエラー",
-                            "load_error": "一部のノードのロードに失敗しました"
                         },
                         "validation": {
                             "too_many_untagged_networks": "タグなしのネットワークは同じインタフェースに割り当てることはできません",
