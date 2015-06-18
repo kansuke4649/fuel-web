@@ -1347,6 +1347,7 @@
                 "see_logs": "ログを参照",
                 "copyright": "Copyright © 2013-2015 Mirantis. All rights reserved.",
                 "version": "バージョン",
+                "username": "ユーザー名",
                 "change_password": "パスワードを変更",
                 "logout": "ログアウト",
                 "role_limits": {
@@ -1631,6 +1632,8 @@
                         "total_space": "総容量",
                         "unallocated": "未割当",
                         "use_all_allowed_space": "使用可能なすべての容量を使用",
+                        "validation_error": "ボリュームグループの合計サイズが許可された __size__ MB を超えました",
+                        "minimum_reached": "最小許容サイズに達しました",
                         "configuration_error": {
                             "title": "ディスク設定エラー",
                             "saving_warning": "変更を適用できませんでした",
@@ -1667,8 +1670,7 @@
                         "discard_addition": "追加処理の破棄",
                         "discard_deletion": "削除処理の破棄",
                         "view_logs": "ログを表示",
-                        "edit_name": "名前の編集",
-                        "unallocated": "未割り当て"
+                        "edit_name": "名前の編集"
                     },
                     "back_to_nodes_button": "ノード一覧へ戻る",
                     "unallocated_nodes": "未割り当てのノード",
